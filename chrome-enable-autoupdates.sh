@@ -54,7 +54,7 @@ else
 fi
 
 # Registers Chrome with Keystone
-if ! /Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksadmin \
+if ! ~/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksadmin \     #moved to ~/
     --register \
     --productid "$productID" \
     --version "$chromeVersion" \
